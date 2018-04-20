@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Welcome</title>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <h1>Grüß Gott ${loginname}!</h1>

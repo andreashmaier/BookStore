@@ -9,15 +9,19 @@
 <html>
 <head>
     <title>Neues Buch</title>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<%@include file="../common/nav.jspf"%>
 <p>neues Buch erstellen:</p>
+<div class="container">
+    <form method="post" action="addBooks.do">
+        Titel:<input type="text" name="titel" /><br>
+        Autor:<input type="text" name="autor" /><br>
+        ISBN:<input type="text" name="isbn" /><br>
+        <input type="submit" value="Speichern" class="btn btn-success">
+    </form>
+</div>
 
-<form method="post" action="addBooks.do">
-    Titel:<input type="text" name="titel" /><br>
-    Autor:<input type="text" name="autor" /><br>
-    ISBN:<input type="text" name="isbn" /><br>
-    <input type="submit" value="Speichern">
-</form>
 </body>
 </html>

@@ -9,14 +9,14 @@
 <html>
 <head>
     <title>User registration</title>
-
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <form method="post" action="registrieren">
     Benutzername:<input type="text" name="username">
     Passwort:<input type="password" name="password">
 
-    <input type="submit" value="Registrieren">
+    <input type="submit" value="Registrieren" class="btn btn-success">
 </form>
 
 </body>

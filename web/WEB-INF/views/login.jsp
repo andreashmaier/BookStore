@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Login</title>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <h1>Login-Page</h1>
@@ -17,10 +18,10 @@
 <form action="einloggen" method="post">
     Loginname: <input type="text" name="loginname">
     Passwort: <input type="password" name="password">
-    <input type="submit" value="Einloggen"/>
+    <input type="submit" value="Einloggen"class="btn btn-success"/>
 </form>
 
-<a href="registrieren"> Registrieren </a>
+<a href="registrieren" class="btn btn-info"> Registrieren </a>
 
 </body>
 </html>
